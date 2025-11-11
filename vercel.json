@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "name": "car-store-backend",
+  "name": "express-api-mongodb",
   "builds": [
     {
-      "src": "src/index.ts",
+      "src": "api/index.ts",
       "use": "@vercel/node"
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "src/index.ts" }
+    { "src": "/(.*)", "dest": "api/index.ts" }
   ]
 }

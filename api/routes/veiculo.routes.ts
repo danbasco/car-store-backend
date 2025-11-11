@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { VeiculoController } from '../controllers/veiculo.controller';
-import { upload } from '../middlewares/upload.middleware';
-import { protectedMiddleware } from '../middlewares/jwt.token.middleware';
+import { VeiculoController } from '../controllers/veiculo.controller.js';
+import { upload } from '../middlewares/upload.middleware.js';
+import { protectedMiddleware } from '../middlewares/jwt.token.middleware.js';
 
 const router = Router();
 const controller = new VeiculoController();

@@ -1,7 +1,7 @@
 import express, {Request, Response} from "express";
 import cors from 'cors';
-import veiculoRoutes from './routes/veiculo.routes';
-import db from './database/mongo';
+import veiculoRoutes from './routes/veiculo.routes.js';
+import db from './database/mongo.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
